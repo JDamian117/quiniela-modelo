@@ -1,0 +1,12 @@
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+xgboost>=2.0
+requests>=2.31
+pytest>=8.0
+# Agente y sentimiento (modelos open source de Hugging Face)
+transformers>=4.44
+torch>=2.2            # CPU basta para el modelo de sentimiento (~280M params)
+huggingface_hub>=0.25 # InferenceClient para el agente vía API (export HF_TOKEN=hf_xxx)
+
+streamlit>=1.37

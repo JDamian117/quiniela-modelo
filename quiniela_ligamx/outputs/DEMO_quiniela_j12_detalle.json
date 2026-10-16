@@ -1,0 +1,1003 @@
+{
+  "aviso": "DATOS SINTÉTICOS (--demo): no son predicciones reales",
+  "fuentes": [
+    {
+      "fuente": "--demo",
+      "estado": "aviso",
+      "detalle": "datos SINTÉTICOS: métricas y picks NO son reales",
+      "n": null,
+      "consultado_utc": "2026-10-16 03:21"
+    },
+    {
+      "fuente": "noticias/sentimiento",
+      "estado": "aviso",
+      "detalle": "desactivados (--no-news): sentimiento neutro",
+      "n": null,
+      "consultado_utc": "2026-10-16 03:21"
+    },
+    {
+      "fuente": "agente LLM",
+      "estado": "aviso",
+      "detalle": "desactivado (--llm none): decisión = ensamble tras señales",
+      "n": null,
+      "consultado_utc": "2026-10-16 03:21"
+    },
+    {
+      "fuente": "Lesiones · Necaxa",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · Atlas",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · Atlante",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · Pumas",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · Tijuana",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · Puebla",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · Santos",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · Querétaro",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · Chivas",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · Tigres",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · León",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · América",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · Toluca",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · San Luis",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · Cruz Azul",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · Juárez",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · Monterrey",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    },
+    {
+      "fuente": "Lesiones · Pachuca",
+      "estado": "neutro",
+      "detalle": "sin bajas registradas (índice 0); confirmar a mano",
+      "n": 0,
+      "consultado_utc": "2026-10-16 03:22"
+    }
+  ],
+  "validacion_walk_forward": {
+    "climatología": {
+      "logloss": 1.0571,
+      "rps": 0.23225,
+      "brier": 0.6386,
+      "acc": 0.46209,
+      "ece": 0.01681
+    },
+    "markov": {
+      "logloss": 1.05205,
+      "rps": 0.22808,
+      "brier": 0.63248,
+      "acc": 0.47029,
+      "ece": 0.02842
+    },
+    "dixon-coles": {
+      "logloss": 1.03771,
+      "rps": 0.22465,
+      "brier": 0.62314,
+      "acc": 0.49283,
+      "ece": 0.02524
+    },
+    "xgboost(cal)": {
+      "logloss": 1.06841,
+      "rps": 0.23156,
+      "brier": 0.64485,
+      "acc": 0.46516,
+      "ece": 0.05522
+    },
+    "ENSAMBLE": {
+      "logloss": 1.03482,
+      "rps": 0.22373,
+      "brier": 0.62125,
+      "acc": 0.49283,
+      "ece": 0.0206
+    },
+    "mercado (subset)": {
+      "logloss": 1.02805,
+      "rps": 0.22124,
+      "brier": 0.61636,
+      "acc": 0.5123,
+      "ece": 0.02729
+    }
+  },
+  "pesos_ensamble": {
+    "dc_mc": 0.713,
+    "markov": 0.287,
+    "xgboost": 0.0
+  },
+  "temperatura_xgb": 1.865,
+  "ece_por_clase_ensamble": [
+    0.0284,
+    0.0138,
+    0.0196
+  ],
+  "holdout_60_40": {
+    "n_holdout": 391,
+    "pesos_ajuste": {
+      "dc_mc": 0.754,
+      "markov": 0.245,
+      "xgboost": 0.001
+    },
+    "ensamble": 1.0494248932450978,
+    "dc_mc": 1.0530669914693276,
+    "markov": 1.0601270160627239,
+    "xgboost": 1.0813089609146118,
+    "mejor_componente": "dc_mc",
+    "ensamble_le_mejor": true
+  },
+  "convergencia_montecarlo_max_abs": 0.00473,
+  "aciertos_esperados": 3.984,
+  "p_ge": {
+    "1": 0.9947,
+    "2": 0.9582,
+    "3": 0.8412,
+    "4": 0.6232,
+    "5": 0.361,
+    "6": 0.1537,
+    "7": 0.0439,
+    "8": 0.0076,
+    "9": 0.0006
+  },
+  "partidos": [
+    {
+      "partido": "Necaxa vs Atlas",
+      "fecha": "2026-10-16",
+      "modelos": {
+        "dixon_coles_montecarlo": [
+          0.464,
+          0.232,
+          0.304
+        ],
+        "markov": [
+          0.414,
+          0.361,
+          0.225
+        ],
+        "xgboost": [
+          0.3720000088214874,
+          0.2849999964237213,
+          0.34299999475479126
+        ],
+        "mercado": null
+      },
+      "formato_probs": "[local, empate, visitante]",
+      "ensamble": [
+        0.45,
+        0.269,
+        0.281
+      ],
+      "tras_senales": [
+        0.45,
+        0.269,
+        0.281
+      ],
+      "goles_esperados": [
+        1.82,
+        1.47
+      ],
+      "marcadores_top": [
+        [
+          "1-1",
+          0.109
+        ],
+        [
+          "2-1",
+          0.0975
+        ],
+        [
+          "1-2",
+          0.0705
+        ]
+      ],
+      "p_over_2_5": 0.637,
+      "p_ambos_anotan": 0.652,
+      "senales": {
+        "local": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        },
+        "visitante": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        }
+      },
+      "alertas": [],
+      "final": [
+        0.4501,
+        0.269,
+        0.2809
+      ],
+      "pick": "1",
+      "llm_pick": null,
+      "confianza": "alta",
+      "confianza_llm": "n/a",
+      "agente_altero_ensamble": false,
+      "delta_agente": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "razonamiento": [],
+      "riesgos": []
+    },
+    {
+      "partido": "Atlante vs Pumas",
+      "fecha": "2026-10-16",
+      "modelos": {
+        "dixon_coles_montecarlo": [
+          0.396,
+          0.209,
+          0.394
+        ],
+        "markov": [
+          0.44,
+          0.207,
+          0.353
+        ],
+        "xgboost": [
+          0.3140000104904175,
+          0.3019999861717224,
+          0.382999986410141
+        ],
+        "mercado": null
+      },
+      "formato_probs": "[local, empate, visitante]",
+      "ensamble": [
+        0.409,
+        0.208,
+        0.383
+      ],
+      "tras_senales": [
+        0.409,
+        0.208,
+        0.383
+      ],
+      "goles_esperados": [
+        1.9,
+        1.88
+      ],
+      "marcadores_top": [
+        [
+          "1-2",
+          0.0795
+        ],
+        [
+          "1-1",
+          0.078
+        ],
+        [
+          "2-2",
+          0.077
+        ]
+      ],
+      "p_over_2_5": 0.731,
+      "p_ambos_anotan": 0.714,
+      "senales": {
+        "local": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        },
+        "visitante": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        }
+      },
+      "alertas": [
+        "Atlante: solo 11 partidos en 12 meses en el histórico (muestra pequeña, incertidumbre alta)"
+      ],
+      "final": [
+        0.409,
+        0.2084,
+        0.3826
+      ],
+      "pick": "1",
+      "llm_pick": null,
+      "confianza": "baja",
+      "confianza_llm": "n/a",
+      "agente_altero_ensamble": false,
+      "delta_agente": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "razonamiento": [],
+      "riesgos": []
+    },
+    {
+      "partido": "Tijuana vs Puebla",
+      "fecha": "2026-10-16",
+      "modelos": {
+        "dixon_coles_montecarlo": [
+          0.494,
+          0.272,
+          0.234
+        ],
+        "markov": [
+          0.464,
+          0.191,
+          0.345
+        ],
+        "xgboost": [
+          0.4580000042915344,
+          0.27300000190734863,
+          0.27000001072883606
+        ],
+        "mercado": null
+      },
+      "formato_probs": "[local, empate, visitante]",
+      "ensamble": [
+        0.485,
+        0.249,
+        0.266
+      ],
+      "tras_senales": [
+        0.485,
+        0.249,
+        0.266
+      ],
+      "goles_esperados": [
+        1.52,
+        0.98
+      ],
+      "marcadores_top": [
+        [
+          "1-1",
+          0.128
+        ],
+        [
+          "1-0",
+          0.113
+        ],
+        [
+          "2-0",
+          0.099
+        ]
+      ],
+      "p_over_2_5": 0.454,
+      "p_ambos_anotan": 0.49,
+      "senales": {
+        "local": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        },
+        "visitante": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        }
+      },
+      "alertas": [],
+      "final": [
+        0.4851,
+        0.2487,
+        0.2661
+      ],
+      "pick": "1",
+      "llm_pick": null,
+      "confianza": "alta",
+      "confianza_llm": "n/a",
+      "agente_altero_ensamble": false,
+      "delta_agente": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "razonamiento": [],
+      "riesgos": []
+    },
+    {
+      "partido": "Santos vs Querétaro",
+      "fecha": "2026-10-17",
+      "modelos": {
+        "dixon_coles_montecarlo": [
+          0.356,
+          0.262,
+          0.382
+        ],
+        "markov": [
+          0.43,
+          0.293,
+          0.276
+        ],
+        "xgboost": [
+          0.3449999988079071,
+          0.3160000145435333,
+          0.33899998664855957
+        ],
+        "mercado": null
+      },
+      "formato_probs": "[local, empate, visitante]",
+      "ensamble": [
+        0.378,
+        0.271,
+        0.351
+      ],
+      "tras_senales": [
+        0.378,
+        0.271,
+        0.351
+      ],
+      "goles_esperados": [
+        1.37,
+        1.41
+      ],
+      "marcadores_top": [
+        [
+          "1-1",
+          0.1175
+        ],
+        [
+          "1-2",
+          0.09
+        ],
+        [
+          "0-1",
+          0.0875
+        ]
+      ],
+      "p_over_2_5": 0.521,
+      "p_ambos_anotan": 0.574,
+      "senales": {
+        "local": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        },
+        "visitante": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        }
+      },
+      "alertas": [],
+      "final": [
+        0.3777,
+        0.2709,
+        0.3513
+      ],
+      "pick": "1",
+      "llm_pick": null,
+      "confianza": "baja",
+      "confianza_llm": "n/a",
+      "agente_altero_ensamble": false,
+      "delta_agente": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "razonamiento": [],
+      "riesgos": []
+    },
+    {
+      "partido": "Chivas vs Tigres",
+      "fecha": "2026-10-17",
+      "modelos": {
+        "dixon_coles_montecarlo": [
+          0.25,
+          0.194,
+          0.556
+        ],
+        "markov": [
+          0.361,
+          0.243,
+          0.395
+        ],
+        "xgboost": [
+          0.3720000088214874,
+          0.2800000011920929,
+          0.34700000286102295
+        ],
+        "mercado": null
+      },
+      "formato_probs": "[local, empate, visitante]",
+      "ensamble": [
+        0.282,
+        0.208,
+        0.51
+      ],
+      "tras_senales": [
+        0.282,
+        0.208,
+        0.51
+      ],
+      "goles_esperados": [
+        1.57,
+        2.4
+      ],
+      "marcadores_top": [
+        [
+          "1-2",
+          0.08
+        ],
+        [
+          "2-2",
+          0.072
+        ],
+        [
+          "1-1",
+          0.0715
+        ]
+      ],
+      "p_over_2_5": 0.75,
+      "p_ambos_anotan": 0.707,
+      "senales": {
+        "local": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        },
+        "visitante": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        }
+      },
+      "alertas": [],
+      "final": [
+        0.282,
+        0.2085,
+        0.5095
+      ],
+      "pick": "2",
+      "llm_pick": null,
+      "confianza": "alta",
+      "confianza_llm": "n/a",
+      "agente_altero_ensamble": false,
+      "delta_agente": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "razonamiento": [],
+      "riesgos": []
+    },
+    {
+      "partido": "León vs América",
+      "fecha": "2026-10-17",
+      "modelos": {
+        "dixon_coles_montecarlo": [
+          0.262,
+          0.27,
+          0.468
+        ],
+        "markov": [
+          0.362,
+          0.238,
+          0.4
+        ],
+        "xgboost": [
+          0.3230000138282776,
+          0.31200000643730164,
+          0.36399999260902405
+        ],
+        "mercado": null
+      },
+      "formato_probs": "[local, empate, visitante]",
+      "ensamble": [
+        0.291,
+        0.26,
+        0.449
+      ],
+      "tras_senales": [
+        0.291,
+        0.26,
+        0.449
+      ],
+      "goles_esperados": [
+        1.04,
+        1.49
+      ],
+      "marcadores_top": [
+        [
+          "1-1",
+          0.1285
+        ],
+        [
+          "0-1",
+          0.107
+        ],
+        [
+          "0-2",
+          0.094
+        ]
+      ],
+      "p_over_2_5": 0.454,
+      "p_ambos_anotan": 0.495,
+      "senales": {
+        "local": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        },
+        "visitante": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        }
+      },
+      "alertas": [],
+      "final": [
+        0.291,
+        0.2605,
+        0.4486
+      ],
+      "pick": "2",
+      "llm_pick": null,
+      "confianza": "alta",
+      "confianza_llm": "n/a",
+      "agente_altero_ensamble": false,
+      "delta_agente": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "razonamiento": [],
+      "riesgos": []
+    },
+    {
+      "partido": "Toluca vs San Luis",
+      "fecha": "2026-10-17",
+      "modelos": {
+        "dixon_coles_montecarlo": [
+          0.44,
+          0.254,
+          0.307
+        ],
+        "markov": [
+          0.489,
+          0.168,
+          0.343
+        ],
+        "xgboost": [
+          0.4429999887943268,
+          0.22300000488758087,
+          0.33399999141693115
+        ],
+        "mercado": null
+      },
+      "formato_probs": "[local, empate, visitante]",
+      "ensamble": [
+        0.454,
+        0.229,
+        0.317
+      ],
+      "tras_senales": [
+        0.454,
+        0.229,
+        0.317
+      ],
+      "goles_esperados": [
+        1.5,
+        1.21
+      ],
+      "marcadores_top": [
+        [
+          "1-1",
+          0.117
+        ],
+        [
+          "2-1",
+          0.1005
+        ],
+        [
+          "1-0",
+          0.0955
+        ]
+      ],
+      "p_over_2_5": 0.51,
+      "p_ambos_anotan": 0.544,
+      "senales": {
+        "local": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        },
+        "visitante": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        }
+      },
+      "alertas": [],
+      "final": [
+        0.4538,
+        0.229,
+        0.3173
+      ],
+      "pick": "1",
+      "llm_pick": null,
+      "confianza": "media",
+      "confianza_llm": "n/a",
+      "agente_altero_ensamble": false,
+      "delta_agente": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "razonamiento": [],
+      "riesgos": []
+    },
+    {
+      "partido": "Cruz Azul vs Juárez",
+      "fecha": "2026-10-17",
+      "modelos": {
+        "dixon_coles_montecarlo": [
+          0.378,
+          0.272,
+          0.35
+        ],
+        "markov": [
+          0.364,
+          0.347,
+          0.289
+        ],
+        "xgboost": [
+          0.3479999899864197,
+          0.32100000977516174,
+          0.3310000002384186
+        ],
+        "mercado": null
+      },
+      "formato_probs": "[local, empate, visitante]",
+      "ensamble": [
+        0.374,
+        0.294,
+        0.332
+      ],
+      "tras_senales": [
+        0.374,
+        0.294,
+        0.332
+      ],
+      "goles_esperados": [
+        1.44,
+        1.36
+      ],
+      "marcadores_top": [
+        [
+          "1-1",
+          0.1215
+        ],
+        [
+          "1-0",
+          0.0875
+        ],
+        [
+          "1-2",
+          0.082
+        ]
+      ],
+      "p_over_2_5": 0.53,
+      "p_ambos_anotan": 0.57,
+      "senales": {
+        "local": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        },
+        "visitante": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        }
+      },
+      "alertas": [],
+      "final": [
+        0.3742,
+        0.2936,
+        0.3322
+      ],
+      "pick": "1",
+      "llm_pick": null,
+      "confianza": "baja",
+      "confianza_llm": "n/a",
+      "agente_altero_ensamble": false,
+      "delta_agente": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "razonamiento": [],
+      "riesgos": []
+    },
+    {
+      "partido": "Monterrey vs Pachuca",
+      "fecha": "2026-10-18",
+      "modelos": {
+        "dixon_coles_montecarlo": [
+          0.462,
+          0.257,
+          0.282
+        ],
+        "markov": [
+          0.511,
+          0.228,
+          0.261
+        ],
+        "xgboost": [
+          0.5180000066757202,
+          0.257999986410141,
+          0.2240000069141388
+        ],
+        "mercado": null
+      },
+      "formato_probs": "[local, empate, visitante]",
+      "ensamble": [
+        0.476,
+        0.249,
+        0.276
+      ],
+      "tras_senales": [
+        0.476,
+        0.249,
+        0.276
+      ],
+      "goles_esperados": [
+        1.58,
+        1.19
+      ],
+      "marcadores_top": [
+        [
+          "1-1",
+          0.118
+        ],
+        [
+          "1-0",
+          0.1
+        ],
+        [
+          "2-1",
+          0.093
+        ]
+      ],
+      "p_over_2_5": 0.524,
+      "p_ambos_anotan": 0.554,
+      "senales": {
+        "local": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        },
+        "visitante": {
+          "sentiment": 0.0,
+          "injuries": [],
+          "injury_headlines": [],
+          "headlines": []
+        }
+      },
+      "alertas": [],
+      "final": [
+        0.4756,
+        0.2487,
+        0.2757
+      ],
+      "pick": "1",
+      "llm_pick": null,
+      "confianza": "alta",
+      "confianza_llm": "n/a",
+      "agente_altero_ensamble": false,
+      "delta_agente": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "razonamiento": [],
+      "riesgos": []
+    }
+  ]
+}
